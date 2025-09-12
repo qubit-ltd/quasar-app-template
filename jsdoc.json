@@ -1,0 +1,26 @@
+{
+  "source": {
+    "include": [
+      "./src"
+    ],
+    "includePattern": "\\.js$",
+    "exclude": [
+      "./node_modules"
+    ]
+  },
+  "opts": {
+    "destination": "./doc",
+    "recurse": true,
+    "template": "./node_modules/@qubit-ltd/jsdoc-theme",
+    "theme_opts": {
+      "language": "zh"
+    }
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  }
+}

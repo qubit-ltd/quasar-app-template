@@ -17,7 +17,7 @@ export default [
       'quasar.config.*.temporary.compiled*',
     ],
   },
-  
+
   // Apply to all files
   {
     languageOptions: {
@@ -28,14 +28,14 @@ export default [
         window: 'readonly',
         document: 'readonly',
         console: 'readonly',
-        
+
         // Node.js globals
         process: 'readonly',
         Buffer: 'readonly',
         global: 'readonly',
         __dirname: 'readonly',
         __filename: 'readonly',
-        
+
         // Quasar specific globals
         ga: 'readonly', // Google Analytics
         cordova: 'readonly',
@@ -49,13 +49,13 @@ export default [
       },
     },
   },
-  
+
   // Base ESLint recommended rules
   js.configs.recommended,
-  
+
   // Qubit ESLint config
   ...qubitConfig,
-  
+
   // Vue files configuration
   {
     files: ['**/*.vue'],
@@ -86,7 +86,7 @@ export default [
       'vue/no-duplicate-attributes': 'error',
     },
   },
-  
+
   // JavaScript files configuration
   {
     files: ['**/*.js', '**/*.mjs'],
@@ -102,7 +102,7 @@ export default [
       },
     },
   },
-  
+
   // Custom rules
   {
     rules: {

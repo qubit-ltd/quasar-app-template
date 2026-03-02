@@ -11,7 +11,7 @@ var NAVBAR_OPTIONS = {};
   var mainSection = document.querySelector("#main");
   var localStorageResizeObject = JSON.parse(
     // eslint-disable-next-line no-undef
-    localStorage.getItem(NAVBAR_RESIZE_LOCAL_STORAGE_KEY)
+    localStorage.getItem(NAVBAR_RESIZE_LOCAL_STORAGE_KEY),
   );
 
   /**
@@ -66,7 +66,7 @@ var NAVBAR_OPTIONS = {};
       NAVBAR_RESIZE_LOCAL_STORAGE_KEY,
       JSON.stringify({
         width: navbar.style.width,
-      })
+      }),
     );
   }
 

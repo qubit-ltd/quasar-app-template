@@ -179,7 +179,7 @@ function bringElementIntoView(element, updateHistory = true) {
     setTimeout(
       // eslint-disable-next-line no-undef
       () => tocbotInstance.updateTocListActiveElement(element),
-      60
+      60,
     );
   }
   var navbar = document.querySelector(".navbar-container");
@@ -431,7 +431,7 @@ function localUpdateFontSize(fontSize) {
   html.style.fontSize = fontSize + "px";
 
   var fontSizeText = document.querySelector(
-    "#b77a68a492f343baabea06fad81f651e"
+    "#b77a68a492f343baabea06fad81f651e",
   );
 
   if (fontSizeText) {
@@ -621,7 +621,7 @@ function highlightActiveLinkInSidebar() {
   if (!element) {
     try {
       element = document.querySelector(
-        `.sidebar a[href*='${targetURL.split("#")[0]}']`
+        `.sidebar a[href*='${targetURL.split("#")[0]}']`,
       );
     } catch (e) {
       console.error(e);

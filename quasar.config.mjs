@@ -8,7 +8,7 @@ import babel from '@qubit-ltd/vite-plugin-babel';
 /* eslint global-require: 0 */
 import { configure } from 'quasar/wrappers';
 import generateFile from 'vite-plugin-generate-file';
-import { nodePolyfills } from 'vite-plugin-node-polyfills';
+// import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import appInfo from './lib/app-info';
 import getProcessEnv from './lib/get-process-env';
 
@@ -109,7 +109,8 @@ export default configure((ctx) => ({
       babel(),
       // 'object-inspect' use the 'util.inspect' in the standard node library,
       // so we need the following node polyfills for browser environment
-      nodePolyfills(),
+      // 修改了 @qubit-ltd/common-decorator 后，不再需要 node polyfills
+      // nodePolyfills(),
       // 生成 app-info.json，保存当前版本信息，用于自动更新
       generateFile([{
         type: 'json',

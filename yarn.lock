@@ -2596,9 +2596,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qubit-ltd/common-decorator@npm:^3.10.8":
-  version: 3.10.8
-  resolution: "@qubit-ltd/common-decorator@npm:3.10.8"
+"@qubit-ltd/common-decorator@npm:^3.10.9":
+  version: 3.10.9
+  resolution: "@qubit-ltd/common-decorator@npm:3.10.9"
   peerDependencies:
     "@babel/runtime": ^7.28.5
     "@qubit-ltd/clone": ^1.13.7
@@ -2608,7 +2608,7 @@ __metadata:
     "@qubit-ltd/type-detect": ^2.2.9
     "@qubit-ltd/typeinfo": ^3.3.10
     "@qubit-ltd/validation-rule": ^1.8.2
-  checksum: 10c0/e365cca23c0d3f2206afc5a3e1534d6f942ed07caaa76043e7ec3e2c385b980949bf50f7c9c5154afda2d92ffa677f546b92dd71c5096396b5500ed10fbd9e08
+  checksum: 10c0/10e0e879f0974a9aed343dfdb59ed01a755d929dc9caa164c76fdafd568df72996b6955166e4aa796a243149662d48b70fe7de68bbc213adcb2f6eb304a184c8
   languageName: node
   linkType: hard
 
@@ -9467,7 +9467,7 @@ __metadata:
     "@qubit-ltd/clone": "npm:^1.13.7"
     "@qubit-ltd/common-api": "npm:^3.4.5"
     "@qubit-ltd/common-app": "npm:^1.11.25"
-    "@qubit-ltd/common-decorator": "npm:^3.10.8"
+    "@qubit-ltd/common-decorator": "npm:^3.10.9"
     "@qubit-ltd/common-filter": "npm:^1.11.3"
     "@qubit-ltd/common-model": "npm:^4.23.1"
     "@qubit-ltd/common-normalizer": "npm:^1.8.8"
